@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>jshuttle demo page</title>
+<style type="text/css">
+    input{ margin: 0; }
+    table{ display: inline; }
+</style>
+        
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="jshuttle.js"></script>
+
+</head>
+<body>
+<select id="left" multiple="multiple" size="7" style="width: 200px">
+    <option value="Guppy">Guppy</option>
+    <option value="Trout">Trout</option>
+    <option value="Shark">Shark</option>
+</select>
+
+<table>
+<tr><td><input id="btnAddAll" type="button" value="&gt;&gt;" ></td></tr>
+<tr><td><input id="btnAdd" type="button" value="&gt;" ></td></tr>
+<tr><td><input id="btnRemove" type="button" value="&lt;" ></td></tr>
+<tr><td><input id="btnRemoveAll" type="button" value="&lt;&lt;" ></td></tr>
+</table>
+
+<select id="right" multiple="multiple" size="7" style="width: 200px">
+</select>
+
+<script type="text/javascript">
+    $.jshuttle( "#left", "#right", {
+        add: "#btnAdd", 
+        remove: "#btnRemove",
+        addAll: "#btnAddAll", 
+        removeAll: "#btnRemoveAll" }
+    );
+</script>
+
+</body>
+</html>
