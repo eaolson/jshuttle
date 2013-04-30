@@ -1,0 +1,30 @@
+{
+  "name": "jshuttle",
+  "title": "jQuery shuttle",
+  "description": "Binds select and button elements into a coherent shuttle element",
+  "keywords": [
+    "shuttle",
+    "form",
+    "ui",
+    "select"
+  ],
+  "version": "0.1.0",
+  "author": {
+    "name": "Eric Olson",
+    "email": "eaolson@gmail.com",
+    "url": "https://github.com/eaolson"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": "https://github.com/jquery-boilerplate/boilerplate/issues",
+  "homepage": "http://jqueryboilerplate.com",
+  "docs": "https://github.com/jquery-boilerplate/boilerplate#readme",
+  "download": "https://github.com/jquery-boilerplate/boilerplate/archive/master.zip",
+  "dependencies": {
+    "jquery": ">=1.4.2"
+  }
+}
